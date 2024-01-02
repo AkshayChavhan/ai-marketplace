@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Creating Next app :- 
+
+Create next app
+$ npx create-next-app .
+✔ Would you like to use TypeScript? …  Yes
+✔ Would you like to use ESLint? …  Yes
+✔ Would you like to use Tailwind CSS? … Yes
+✔ Would you like to use `src/` directory? … No 
+✔ Would you like to use App Router? (recommended) … Yes
+✔ Would you like to customize the default import alias (@/*)? … No 
+
+
+## Installing NEXTUI :-
+
+We are using NEXTUI ,refer https://nextui.org/docs/guide/installation
+install packages:-
+npm i @nextui-org/react framer-motion
+Do global installation ,refer :- https://nextui.org/docs/guide/installation#global-installation
+
+Create folder named '(Providers)' and file inside named 'NextUIProvider.tsx'
+
+Check by running command
+$ npm run dev
